@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>Capstone Project</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="side-menu">
+            <h1>Hi</h1>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/memes/"><i class="fab fa-facebook" ></i></a>
+                <a href="https://www.instagram.com/memes/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="top-menu">
+                <h1 class="title">Hi</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://riverstyx.com/">About</a></li>
+                    <li><a href="https://www.beesbeesbeesbees.com/">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="toggle"></div>
+            </div>
+
+            <div class="panels-container">
+                <div class="left-panel">
+                    <h2>Explore your options</h2>
+                    <ul>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="https://papertoilet.com/">Hobbies</a></li>
+                        <li><a href="http://127.0.0.1:3000/11.3+TinDog+Project/11.3%20TinDog%20Project/index.html">Project</a></li>
+                    </ul>
+                </div>
+                <div class="right-panel">
+                    <h2>Hey, I'm Neel Sagar </h2>
+                    <p>I'm a Civil Engineer Transitioning to a Web Developer Career. Building Bridges in the Real World, Crafting Digital Experiences in the Virtual One. Passionate about Innovation and Connecting People Through Technology.</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="content">
+                    <h3>Education</h3>
+                    <p>Civil Engineering (2019-23)</p>
+                    <p>Web Development Bootcamp (2023-)</p>
+                    <a href="#" class="read-more"> Read-more....</a>
+                </div>
+                <div class="content" id="Instruction">
+                    <h3>Skills</h3>
+                    <p>Photography</p>
+                    <p>Adobe Premiere pro, Photoshop </p> 
+                    <p> Microsoft Office (Word, Excel, PPT)</p> 
+                    <p>AutoCAD 2D 3D</p>
+                    <a href="#" class="read-more"> Read-more....</a>
+                </div>
+                <div class="content" id="Project">
+                    <h3>Project</h3>
+                    <p>Planning, Analysing And Designing Of G+2 Residential Building Of 3Bhk With 3 Bathrooms. (2023)</p>
+                    <p>The Seismic Behaviour Of Different Types Of Reinforced Cement Concrete-Bracing System In A Reinforced Concrete Structure. (2023)</p>
+                    <p>TinDog Project under Web Development Bootcamp. (2023)</p>
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="home-background">
+            <div class="img-box">
+                <img src="./images/Neel.png" alt="Neel" height="1000">
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        const topMenu = document.querySelector('.top-menu');
+        document .querySelector('.toggle').onclick = function(){
+            this.classList.toggle('active');
+            topMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
